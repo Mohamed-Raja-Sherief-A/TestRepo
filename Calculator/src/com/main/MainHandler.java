@@ -26,6 +26,10 @@ public static void main(String[] args) {
 	switch(ch) {
 	case 1: System.out.println("Result:"+service.add(a, b));
 			break;
+	case 2: System.out.println("Result:"+service.substract(a, b));
+			break;
+	case 3: System.out.println("Result:"+service.multiply(a, b));
+			break;
 	default: System.out.println("Invalid character");
 			 break;
 	}
